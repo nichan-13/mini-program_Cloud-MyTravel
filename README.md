@@ -38,7 +38,7 @@
 ##  项目展示
 1. 寻找伙伴  
     [![index.md.jpg](https://z4a.net/images/2020/06/12/index.md.jpg)](https://z4a.net/image/TwPU2L)
-
+[![video.th.jpg](https://z4a.net/images/2020/06/12/video.th.jpg)](https://z4a.net/image/TwPVxH) [![picture.th.jpg](https://z4a.net/images/2020/06/12/picture.th.jpg)](https://z4a.net/image/TwP269) [![map.th.jpg](https://z4a.net/images/2020/06/12/map.th.jpg)](https://z4a.net/image/TwPTob) [![patner.th.jpg](https://z4a.net/images/2020/06/12/patner.th.jpg)](https://z4a.net/image/TwPeMk) [![index.th.jpg](https://z4a.net/images/2020/06/12/index.th.jpg)](https://z4a.net/image/TwPU2L) [![message.th.jpg](https://z4a.net/images/2020/06/12/message.th.jpg)](https://z4a.net/image/TwP6DN)
 
 2. 记录瞬间  
     [![picture.md.jpg](https://z4a.net/images/2020/06/12/picture.md.jpg)](https://z4a.net/image/TwP269)
