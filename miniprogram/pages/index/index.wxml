@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+<!-- 背景图片 -->
+<image class="bg-img" src="/image/page.png"></image>
+
+<!-- 背景音乐 -->
+<view class="bg-music bg-music-{{isPlayingMusic ? 'play' : 'pause'}}" bindtap="play" >
+  <image src="/image/play.png"></image>
+</view>
+
+<!-- 联系 -->
+<view class="phone" bindtap="callContact">
+  <image src="/image/phone.png"></image>
+</view>

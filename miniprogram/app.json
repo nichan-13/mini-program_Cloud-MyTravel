@@ -1,0 +1,63 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/partner/partner",
+    "pages/picture/picture",
+    "pages/map/map",
+    "pages/video/video",
+    "pages/message/message"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#b0cae4",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#8a9fcc",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "寻找伙伴",
+      "iconPath": "/image/icon/index.png",
+      "selectedIconPath": "/image/icon/index.png"
+    },{
+      "pagePath": "pages/picture/picture",
+      "text": "记录瞬间",
+      "iconPath": "/image/icon/picture.png",
+      "selectedIconPath": "/image/icon/picture.png"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "美景实拍",
+      "iconPath": "/image/icon/video.png",
+      "selectedIconPath": "/image/icon/video.png"
+    },{
+      "pagePath": "pages/map/map",
+      "text": "集合地点",
+      "iconPath": "/image/icon/map.png",
+      "selectedIconPath": "/image/icon/map.png"
+    },{
+      "pagePath": "pages/partner/partner",
+      "text": "加入队伍",
+      "iconPath": "/image/icon/partner.png",
+      "selectedIconPath": "/image/icon/partner.png"
+    }]
+  },
+  "plugins": {
+    "tencentvideo": {
+     "version": "1.3.13",
+     "provider": "wxa75efa648b60994b"
+    }
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要获取您的位置"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

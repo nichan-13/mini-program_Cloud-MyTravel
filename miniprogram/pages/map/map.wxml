@@ -1,0 +1,4 @@
+<!--pages/map/map.wxml-->
+
+<map longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" scale="12" bindmarkertap="markersTap"></map>
+<button bindtap="btnTap"></button>

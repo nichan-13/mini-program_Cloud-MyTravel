@@ -1,0 +1,13 @@
+<!--pages/video/video.wxml-->
+
+<view class="video-list" wx:for="{{videoList}}" wx:key="*this">
+	<view class="video-title">实拍：{{item.title}}</view>
+	<view class="video-time">时间：{{item.time}}</view>
+	<video id="{{item.id}}" title="{{item.title}}" src="{{item.src}}" danmu-list="{{item.danmuList}}" enable-danmu danmu-btn show-mute-btn enable-play-gesture show-center-play-btn></video>
+	<view class="danmu-content">
+		<input bindblur="bindInputBlur" placeholder="和小伙伴们愉快的交流吧~"></input>
+		<image src="/image/icon/send.png" bindtap="bindSendDanmu"></image>
+	</view>
+</view>
+
+<!-- <button bindtap="bindButtonTap">获取视频</button> -->

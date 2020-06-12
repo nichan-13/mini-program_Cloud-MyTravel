@@ -1,0 +1,9 @@
+<!--pages/message/message.wxml-->
+<image class="bg-img" src="/image/partnerBg.jpg"></image>
+
+<view class="message-content">
+	<view class="message-info" wx:for="{{messageList}}" wx:key="*this">
+		<text class="message-name">{{item.name}} :</text>
+		<text class="message-text">{{item.message}}</text>
+	</view>
+</view>

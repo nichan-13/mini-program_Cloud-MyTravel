@@ -1,0 +1,55 @@
+/**index.wxss**/
+
+.bg-img {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-music {
+  position: fixed;
+  top: 20rpx;
+  right: 20rpx;
+  z-index: 1;
+}
+
+.bg-music>image {
+  width: 80rpx;
+  height: 80rpx;
+  animation: musicRotate 5s linear infinite;
+}
+
+@keyframes musicRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 背景音乐播放 */
+.bg-music-play>image {
+  animation-play-state: running;
+}
+
+/* 背景音乐暂停 */
+.bg-music-pause>image {
+  animation-play-state: paused;
+}
+
+
+.phone {
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  width: 200rpx;
+  /* border: 1rpx solid; */
+}
+
+.phone>image {
+  float: right;
+  width: 40rpx;
+  height: 40rpx;
+}

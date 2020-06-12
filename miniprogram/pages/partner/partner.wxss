@@ -1,0 +1,65 @@
+/* pages/partner/partner.wxss */
+
+.bg-img {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.show-info-box {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  height: 50%;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.911);
+  border-radius: 15rpx;
+  padding: 30rpx 50rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-box {
+  flex: 1;
+  font-size: 11pt;
+  border: 1rpx solid #ff8100;
+  border-radius: 100rpx;
+  padding: 0 50rpx;
+  margin: 15rpx 0;
+  color: #ff8100;
+  background-color: #fff;
+}
+
+.picker-box {
+  color: #ff8100;
+  display: flex;
+  align-items: center;
+}
+
+.phcolor {
+  color: #ff8100;
+}
+
+.show-info-box>.info-btn {
+  color: #fff;
+  background-color: #ff8100;
+  font-size: 13pt;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+page>.to-messagepage {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 13%;
+  border-radius: 100rpx;
+  color: #ff8100;
+}
+
+.picker {
+  width: 500rpx;
+}

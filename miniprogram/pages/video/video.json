@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "美景实拍",
+  "usingComponents": {
+    "txv-video": "plugin://tencentvideo/video"
+  },
+  "enablePullDownRefresh": true
+}

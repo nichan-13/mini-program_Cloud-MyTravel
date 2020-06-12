@@ -1,0 +1,21 @@
+<!--pages/partner/partner.wxml-->
+
+<image class="bg-img" src="/image/partnerBg.jpg"></image>
+
+<form bindsubmit="formSubmit" report-submit>
+	<view class="show-info-box">
+		<input name="name" value="{{name}}" bindblur="nameChange"  class="info-box" placeholder-class="phcolor" placeholder="请输入您的姓名"></input>
+		<input name="phone" value="{{phone}}" bindblur="phoneChange" class="info-box" placeholder-class="phcolor" placeholder="请输入您的手机号码"></input>
+		<view class="info-box picker-box">
+			<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+				<view class="picker">
+					请选择出行人数： {{array[numPeople] - 1}}
+				</view>
+			</picker>
+		</view>
+		<input name="message" value="{{message}}" bindblur="messageChange" class="info-box" placeholder-class="phcolor" placeholder="出行宣言"></input>
+		<button form-type="submit" class="info-box info-btn">提 交</button>
+	</view>
+</form>
+
+<button class="info-btn to-messagepage" bindtap="toMessagePage"> 留言板 →</button>
